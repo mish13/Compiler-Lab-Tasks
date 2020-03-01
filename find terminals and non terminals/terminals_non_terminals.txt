@@ -1,0 +1,8 @@
+The terminals are: 
+a
+b
+c
+The non-terminals are: 
+E
+F
+T

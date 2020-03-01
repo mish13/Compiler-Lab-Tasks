@@ -1,0 +1,32 @@
+Assembly code for the 3 address code: t1 = a + b
+(We assume t1,a and b are stored in memory location t1,a and b)
+
+LD R1 , t1
+LD R2 , a
+LD R3 , b
+ADD R1 , R2 , R3
+ST t1 , R1
+Assembly code for the 3 address code: t2 = c - d
+(We assume t2,c and d are stored in memory location t2,c and d)
+
+LD R1 , t2
+LD R2 , c
+LD R3 , d
+SUB R1 , R2 , R3
+ST t2 , R1
+Assembly code for the 3 address code: t3 = e * f
+(We assume t3,e and f are stored in memory location t3,e and f)
+
+LD R1 , t3
+LD R2 , e
+LD R3 , f
+MUL R1 , R2 , R3
+ST t3 , R1
+Assembly code for the 3 address code: t4 = t1 / t2
+(We assume t4,t1 and t2 are stored in memory location t4,t1 and t2)
+
+LD R1 , t4
+LD R2 , t1
+LD R3 , t2
+DIV R1 , R2 , R3
+ST t4 , R1

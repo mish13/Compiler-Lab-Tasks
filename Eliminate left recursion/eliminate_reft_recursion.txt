@@ -1,0 +1,7 @@
+Production Rule : E->E+T|E*F|id|#
+Production 1 has left recursion.
+Production 2 has left recursion.
+Production 3 does not have left recursion.
+Production 4 does not have left recursion.
+E->idE'|E'
+E'->+TE'|*FE'|#

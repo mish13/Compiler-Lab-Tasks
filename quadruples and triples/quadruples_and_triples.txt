@@ -1,0 +1,17 @@
+Quadruples are:
+
+Op 	 arg1 	 arg2 	 res
+
+* 	 c 	 d 	 r1
++ 	 b 	 r1 	 r2
++ 	 r2 	 r1 	 r3
+= 	 r3 	   	 a
+
+The triples are:
+
+Op 	 arg1 	 arg2
+
+* 	 c 	 d
++ 	 b 	 (0)
++ 	 (1) 	 (0)
+= 	 (2) 	  
